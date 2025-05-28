@@ -1,0 +1,94 @@
+---
+import '@/styles/globals.css'
+import Layout from '../layouts/Layout.astro';
+import { Button } from "@/components/ui/button";
+---
+
+<Layout title="会社概要 - 有限会社 桜ファーイースト">
+	<main class="pt-24">
+		<section class="py-16 bg-white">
+			<div class="container mx-auto px-4">
+				<h1 class="text-4xl font-light mb-12 text-center">会社概要</h1>
+				
+				<div class="max-w-3xl mx-auto">
+					<div class="border-t border-gray-200 py-6">
+						<h2 class="text-xl font-medium mb-6">基本情報</h2>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+							<div class="font-medium">会社名</div>
+							<div class="md:col-span-2">有限会社 桜ファーイースト</div>
+						</div>
+
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">ミッション</div>
+							<div class="md:col-span-2">Sensory Innovation</div>
+						</div>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">所在地</div>
+							<div class="md:col-span-2">〒192-0353 東京都八王子市鹿島4-1-108</div>
+						</div>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">設立</div>
+							<div class="md:col-span-2">2002年10月28日（創業1995年）</div>
+						</div>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">資本金</div>
+							<div class="md:col-span-2">300万円</div>
+						</div>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">代表取締役</div>
+							<div class="md:col-span-2">高橋美帆</div>
+						</div>
+						
+						<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+							<div class="font-medium">許認可</div>
+							<div class="md:col-span-2">古物商許可 東京都公安委員会 第308780208266号</div>
+						</div>
+					</div>
+					
+					<div class="border-t border-gray-200 py-6">
+						<h2 class="text-xl font-medium mb-6">事業内容</h2>
+						
+						<ul class="list-disc pl-5 space-y-2">
+							<li>香料の輸入販売</li>
+							<li>香りのデザイン・コンサルティング</li>
+							<li>嗅覚ソリューションの提供</li>
+							<li>コレクターアイテム・美術品の売買</li>
+							<li>感覚マーケティングの企画・実施</li>
+						</ul>
+					</div>
+					
+					<div class="border-t border-gray-200 py-6">
+						<h2 class="text-xl font-medium mb-6">サービスサイト</h2>
+						
+						<div class="space-y-4">
+							<div>
+								<a href="https://aof-aroma.com" target="_blank" rel="noopener noreferrer" class="text-[#c8a415] hover:underline">
+									https://aof-aroma.com
+								</a>
+								<p class="text-gray-600 mt-1">香料の輸入販売・香りのデザイン・嗅覚ソリューション</p>
+							</div>
+							
+							<div>
+								<a href="https://asagido.com" target="_blank" rel="noopener noreferrer" class="text-[#c8a415] hover:underline">
+									https://asagido.com
+								</a>
+								<p class="text-gray-600 mt-1">コレクターアイテム・美術品の売買</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="mt-12 text-center">
+						<Button asChild variant="outline" class="rounded-none border-black hover:bg-black hover:text-white transition-colors">
+							<a href="/">トップページに戻る</a>
+						</Button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>

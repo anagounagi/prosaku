@@ -1,0 +1,31 @@
+---
+import '@/styles/globals.css'
+import Layout from '../layouts/Layout.astro';
+import HeroSection from '@/components/HeroSection';
+import IntroSection from '@/components/IntroSection';
+import ServicesSection from '@/components/ServicesSection';
+import WorksSection from '@/components/WorksSection';
+import AboutSection from '@/components/AboutSection';
+import ContactSection from '@/components/ContactSection';
+// import IntroSection from '@/components/IntroSection';
+// import ServicesSection from '@/components/ServicesSection';
+// import WorksSection from '@/components/WorksSection';
+// import AboutSection from '@/components/AboutSection';
+// import ContactSection from '@/components/ContactSection';
+---
+
+<Layout title="Sensory Innovation - 香りのデザインと美術品の取引">
+	<main>
+		<HeroSection client:load />
+		<IntroSection client:load />
+		<ServicesSection client:load />
+		<WorksSection client:load />
+		<AboutSection client:load />
+		<ContactSection client:load />
+		<!-- <IntroSection client:load />
+		<ServicesSection client:load />
+		<WorksSection client:load />
+		<AboutSection client:load />
+		<ContactSection client:load /> -->
+	</main>
+</Layout>
