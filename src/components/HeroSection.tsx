@@ -59,7 +59,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-lg md:text-xl max-w-2xl mx-auto mb-12 text-gray-200 leading-relaxed font-light tracking-wide">
-            サイエンスとテクノロジーで感覚と環境のイノベーション
+            感覚と環境にイノベーションをもたらす
             </p>
           </motion.div>
 
